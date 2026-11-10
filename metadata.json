@@ -1,0 +1,6 @@
+{
+  "name": "LawEagle",
+  "description": "Where Lawyers Meet, Learn & Win - Professional Legal Technology platform tailored for Nigerian legal practitioners.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-navy-950: #050B14;
+  --color-navy-900: #0B192C;
+  --color-navy-850: #0F233E;
+  --color-navy-800: #153158;
+  --color-navy-700: #1E447B;
+
+  --color-gold-300: #F5E8C2;
+  --color-gold-400: #E4C47C;
+  --color-gold-500: #C5A059;
+  --color-gold-600: #A68239;
+  --color-gold-700: #836423;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #060D17;
+  color: #F8FAFC;
+  overflow-x: hidden;
+}
+
+/* Subtle gold foil gradient highlights */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF0CA 0%, #D8B15F 50%, #A27B2B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px -5px rgba(197, 160, 89, 0.2);
+}
+
+.navy-card {
+  background: linear-gradient(180deg, rgba(15, 35, 62, 0.85) 0%, rgba(11, 25, 44, 0.95) 100%);
+  border: 1px solid rgba(197, 160, 89, 0.2);
+}
+
+.navy-card-hover:hover {
+  border-color: rgba(197, 160, 89, 0.45);
+  box-shadow: 0 8px 30px -10px rgba(197, 160, 89, 0.15);
+}
+
